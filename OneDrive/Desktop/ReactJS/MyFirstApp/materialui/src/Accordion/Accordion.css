@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(241, 241, 241);
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.main-div {
+  width: 30%;
+  height: auto;
+  background-color: white;
+  text-align: center;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  border: 2px solid black;
+  margin-top: 50px;
+}
+
+.quesec {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: left;
+  padding: 12px 18px;
+}
+
+.quesec p {
+  padding-left: 20px;
+}
+
+.quesec button{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.sub-div {
+  background-color: rgb(212, 212, 212);
+  margin: 20px 20px;
+}
+
+#sec{
+    background-color: rgb(238, 237, 237);
+    padding: 10px;
+    text-align: left;
+    font-size: 14px;
+}
